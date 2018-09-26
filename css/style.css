@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.container{
+    text-align: center;
+    width: 270px;
+}
+.btn{
+    background: skyblue;
+}
+.neir::after{
+    display: table;
+    content: "";
+    clear: both;
+}
+.neir{
+    margin-top: 30px;
+/*    border: 1px solid #666666;*/
+}
+.left{
+    float: left;
+    padding-left: 10px;
+    width: 80%;
+    display: inline-block;
+}
+.xian{
+    padding: 10px 0px;
+    border: 1px solid #666666;
+}
+/*
+.xian:nth-last-child(1){
+    border-bottom: none;
+}
+*/
+.right{
+    float: right;
+    width: 20%;
+    
+}
+input{
+    height: 30px;
+}
