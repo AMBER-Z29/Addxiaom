@@ -8,7 +8,7 @@
     width: 270px;
 }
 .btn{
-    background: skyblue;
+    background: red;
 }
 .neir::after{
     display: table;
